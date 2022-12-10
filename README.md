@@ -1,6 +1,6 @@
-#h1 FreeCodeCamp - Mock Tribute Page
+# FreeCodeCamp - Mock Tribute Page
 
-This is a solution to the [Responsive Web Development Tribute Page Assignment](https://www.freecodecamp.com). \n
+This is a solution to the [Responsive Web Development Tribute Page Assignment](https://www.freecodecamp.com). 
 
 ## Table of contents
 
