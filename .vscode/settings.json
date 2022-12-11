@@ -1,0 +1,81 @@
+{
+  "editor.fontSize": 22,
+  "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+  },
+  "editor.renderWhitespace": "none",
+  "editor.wordWrap": "on",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.matchBrackets": "always",
+  "editor.tabSize": 2,
+  "workbench.startupEditor": "none",
+  "python.terminal.executeInFileDir": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.guides.indentation": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.iconTheme": "vscode-icons",
+  "diffEditor.codeLens": true,
+  "editor.suggest.showStatusBar": true,
+  "workbench.colorCustomizations": {
+      "editorCursor.background": "#ff0000",
+      "editorBracketHighlight.foreground1": "#d7e519",
+      
+  },
+  "terminal.integrated.cursorBlinking": true,
+  "prettier.useTabs": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "terminal.integrated.defaultLocation": "view",
+  "C_Cpp.default.compilerPath": "",
+  "settingsSync.ignoredSettings": [
+      "-C_Cpp.default.compilerPath"
+  ],
+  "workbench.colorTheme": "Dracula Soft",
+  "editor.fontFamily": "Nunito, Consolas, 'Courier New', monospace",
+  "json.schemas": [
+
+  ],
+
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "block",
+  "javascript.referencesCodeLens.enabled": true,
+  "[javascript]": {
+      "diffEditor.codeLens": true
+  },
+  "editor.tokenColorCustomizations": {
+  "comments": "#fafa048b",
+  "strings": "#f06571",
+  "types": "#1ff74e",
+  "keywords": "#dc16fb",
+  "variables": "#f4b619",
+  "functions": "#16ffd4",
+  "numbers": "#c878da",
+  },
+  "editor.fontLigatures": false,
+
+
+  //terminal changes
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontFamily": "Consolas",
+  
+
+  //code runner settings
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "editor.hover.enabled": false,
+  "workbench.preferredHighContrastLightColorTheme": "Visual Studio Dark",
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "java.implementationsCodeLens.enabled": true,
+  "files.autoSave": "afterDelay",
+
+  
+
+  
+}
