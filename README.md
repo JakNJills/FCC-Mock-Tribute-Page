@@ -1,6 +1,6 @@
 # FreeCodeCamp - Mock Tribute Page
 
-This is a solution to the [Responsive Web Development Tribute Page Assignment](https://www.freecodecamp.com). 
+This is a solution to the [Responsive Web Development Tribute Page Assignment](https://www.freecodecamp.com).
 
 ## Table of contents
 
@@ -14,10 +14,9 @@ This is a solution to the [Responsive Web Development Tribute Page Assignment](h
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 ## Overview
+
 The assignment is to pick a person and create a tribute page for them.
 
 ### The challenge
@@ -46,10 +45,9 @@ The assignment is to pick a person and create a tribute page for them.
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
 
 ### Links
 
@@ -57,21 +55,21 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+
 -Built the cover page \n
-  -Created an <a> link and added an background image. \n
-  -Added a header and positioned it fixed. \n
-  -Added the fade in function to the header. \n
--Index page \n
-  -
+  -Created an <a> link and added an background image.
+  -Added a header and positioned it fixed.
+  -Added the fade in function to the header.
+-Main page
+  -Built a  simple header
+  -Added a navigation bar with links to each section
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
-
-
-
 
 ### What I learned
 
@@ -82,11 +80,13 @@ To see how you can add code snippets, see below:
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
   console.log('🎉')
@@ -101,7 +101,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Stackoverflow](https://stackoverflow.com/questions/25422241/html-and-css-using-background-image-as-a-clickable-link) - This question specifically halped me figure out why my background image wasn't sizing correctly. \n 
+- [Stackoverflow](https://stackoverflow.com/questions/25422241/html-and-css-using-background-image-as-a-clickable-link) - This question specifically halped me figure out why my background image wasn't sizing correctly. \n
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. \n
 
 ## Author
