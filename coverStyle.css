@@ -13,7 +13,7 @@ body {
 }
 
 #background-img {
-  background-image: url("./images/coverPhoto.jpeg.jpg");
+  background-image: url("./images/coverPhoto.png");
   display: block;
   height: 100%;
   background-position: center;
