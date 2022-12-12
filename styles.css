@@ -93,7 +93,7 @@ h1 {
 }
 
 .header-intro {
-  font-size: 1.2rem
+  font-size: 1.2rem;
 }
 
 /*Nav-bar Styles*/
@@ -116,8 +116,7 @@ nav ul {
   align-content: center;
 }
 
-nav li {
- 
+nav li { 
   margin: 0;
   display: inline-block;
   height: 100%;
@@ -125,7 +124,9 @@ nav li {
 
 /*Button*/
 button {
-  background-color: rgb(199, )
+  background-color: rgb(255, 199, 44);
+  height: 100%;
+  border: none;
 }
 
 /*Link Styles*/
@@ -140,19 +141,16 @@ nav.nav-bar li a:visited {
   
 }
 
-
-
-/*maine*/
+/*main*/
 main {
-  margin: 40px 20px 20px;
-  
+  margin: 40px 20px 20px;  
 }
 
 /*Large image container and images*/
 .large-Img-container{
   border: ridge 4px rgb(0, 107, 182);
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 
@@ -178,7 +176,7 @@ main {
 
 /*Section styles*/
 .section-header {
-  margin: 40px 0 0 0;
+  margin: 60px 0 0 0;
   text-align: right;
 }
 
@@ -196,8 +194,14 @@ main {
 }
 
 .section-clear {
-  clear: right;
+  clear: both;
 }
+
+p .article-info {
+  text-align: left;
+  font-size: 1.21rem;
+}
+
 /*Section Images*/
 .right-img-container,
 .left-img-container {
@@ -232,6 +236,7 @@ main {
 .large-Img-container,
 .left-img-container {
   margin: 4px 0 0 0;
+  display: inline-flex;
 }
 
 .medium-size-image {
@@ -243,6 +248,7 @@ main {
   font-weight: 400;
   padding: 0 3px;
   text-align: center;
+  height: 4px;
 }
 
 

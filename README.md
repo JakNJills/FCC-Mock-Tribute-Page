@@ -63,6 +63,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 -Main page
   -Built a  simple header
   -Added a navigation bar with links to each section
+  -added buttons to nav bar
+  -Styled section headers and mini intros
 
 ### Built with
 
