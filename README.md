@@ -56,7 +56,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
--Built the cover page \n
+-Built the cover page
   -Created an <a> link and added an background image.
   -Added a header and positioned it fixed.
   -Added the fade in function to the header.
@@ -65,6 +65,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   -Added a navigation bar with links to each section
   -added buttons to nav bar
   -Styled section headers and mini intros
+  -Get best quality images and make them responsive to resizing
 
 ### Built with
 

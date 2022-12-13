@@ -13,7 +13,7 @@ body {
 }
 
 #background-img {
-  background-image: url("./images/coverPhoto.png");
+  background-image: url("./images/cover.jpeg");
   display: block;
   height: 100%;
   background-position: center;
@@ -32,14 +32,18 @@ body {
 header {
   position: fixed;
   top: 40px;
-  left: 8px;
+  right: 8px;
   z-index: 10;
   width: 32%;
+  padding: 1px;
   font-style: italic;
   text-align: center; 
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  background-color: gray;
+  background-blend-mode: lighten;
+  border-radius: 10% 3% 10% 4%;
 }
 
 /*Animation key=frame*/
