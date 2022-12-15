@@ -44,12 +44,12 @@ h1,
   color: rgb(29, 66, 138);
 }
 
-img,
 .header,
 .section-line,
 nav,
 main,
-button {
+button,
+img {
   max-width: 100%;
 }
 
