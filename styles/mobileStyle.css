@@ -8,3 +8,7 @@
 .large-Screen {
   display: none;
 }
+
+.mobile-Screen {
+  display: block;
+}

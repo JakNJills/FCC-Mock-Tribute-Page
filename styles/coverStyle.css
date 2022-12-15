@@ -13,7 +13,7 @@ body {
 }
 
 #background-img {
-  background-image: url("./images/cover.jpeg");
+  background-image: url("../images/cover.jpeg");
   display: block;
   height: 100%;
   background-position: center;
@@ -31,30 +31,16 @@ body {
 
 header {
   position: fixed;
-  top: 40px;
+  top: 0;
   right: 8px;
   z-index: 10;
   width: 32%;
-  padding: 1px;
   font-style: italic;
-  text-align: center; 
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  text-align: center;
   background-color: black;
   background-blend-mode: lighten;
   border-radius: 10% 4% 10% 4%;
-}
-
-/*Animation key=frame*/
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
+  height: 100%;  
 }
 
 .sr-only {
@@ -69,7 +55,7 @@ header {
 }
 
 #title {
-  margin: 0;
+  margin: 50px auto 0;
   text-align: center;
   padding-top: 10px;
   margin-bottom: 3%;
@@ -88,35 +74,58 @@ header {
 #title,
 .headerIntro {
   font-style: italic;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-.mobileScreen {
+/*Animation key=frame*/
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.mobile-screen {
   display: none;
 }
 
 @media screen and (max-width: 700px){
+  header,
+  #title,
+  .headerIntro {
+    max-width: 100%;
+  }
+  
   header {
-    top: 100;
+    top: 10;
     left: 0;
+    background-color: transparent;
   }
 
   #title {
     font-size: 1.875rem;
+    margin: 0 auto;
   }
 
   .headerIntro {
     font-size: .875rem;
+    margin: 0;
   }
 
 
 }
 
 @media screen and (max-width: 440px) {
-  .mobileScreen {
+  .mobile-screen {
     display: block;
   }
 
-  .webScreen {
+  .web-screen {
     display: none;
   }
 
@@ -125,11 +134,11 @@ header {
     right: 96px;
   }
 
-  #title {
+  h1 span.mobile-screen {
     font-size: 2rem;
   }
 
-  .headerIntro {
+  p span.mobile-screen {
     font-size: .966rem;
   }
 }

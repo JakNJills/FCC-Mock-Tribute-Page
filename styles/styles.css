@@ -56,7 +56,6 @@ img {
 header,
 nav ul,
 nav li,
-main,
 .header-intro {
   margin: 0;
 }
@@ -101,7 +100,7 @@ nav {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  margin: 0 0 10px;
+  margin: 0 0 10px 0;
 }
 
 nav ul {
@@ -139,7 +138,7 @@ nav.nav-bar li a:visited {
 
 /*main*/
 main {
-  margin: 40px 20px 20px;  
+  margin: 40px 60px 20px;  
 }
 
 /*Section lines*/
@@ -153,7 +152,7 @@ main {
 /*Section styles*/
 .section-header {
   margin: 60px 0 0 0;
-  text-align: right;
+  text-align: center;
 }
 
 .section-title {
@@ -161,12 +160,12 @@ main {
   margin: 10px auto 6px;
   background-color: rgb(0, 107, 182);
   border-radius: 10px;
-  padding-right: 10px;
+  padding-right: 10px;  
 }
 
 .section-intro-mini {
   font-size: 1.3rem;
-  margin: 0;
+  margin: 0 0 8px 0;
 }
 
 .section-clear {
@@ -205,8 +204,8 @@ p .article-info {
 
 .float-right {
   float: right;
-  width: 40%;
-  margin: 10px;
+  width: 50%;
+  margin: 0 0 10px 0;
 }
 
 
@@ -220,5 +219,5 @@ p .article-info {
 
 /*iframe style*/
 iframe {
-  margin: 10px 60px;
+  margin: 0 auto;
 }
