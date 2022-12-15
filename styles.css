@@ -198,6 +198,11 @@ p .article-info {
 }
 
 /*medium images*/
+.medium-size-image {
+  height: 300px;
+  margin: 0 auto;
+}
+
 .float-right {
   float: right;
   width: 40%;
@@ -216,16 +221,4 @@ p .article-info {
 /*iframe style*/
 iframe {
   margin: 10px 60px;
-}
-
-/*Media queries*/
-
-@media screen and (min-width: 768) and (max-width: 1023px) {
-  
-}
-
-@media (max-width: 767) {
-  .large-Screen {
-    display: none;
-  }
 }
