@@ -41,9 +41,9 @@ header {
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  background-color: gray;
+  background-color: black;
   background-blend-mode: lighten;
-  border-radius: 10% 3% 10% 4%;
+  border-radius: 10% 4% 10% 4%;
 }
 
 /*Animation key=frame*/
