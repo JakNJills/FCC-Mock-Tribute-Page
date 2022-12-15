@@ -2,7 +2,15 @@
 
 * {
   box-sizing: border-box;
-  scroll-behavior: smooth;;
+  scroll-behavior: smooth;
+}
+
+.large-Screen {
+  display: none;
+}
+
+.mobile-screen {
+  display: block;
 }
 
 h1 {
@@ -13,7 +21,31 @@ h1 {
   font-size: 1rem;  
 }
 
+nav ul {
+  justify-content: flex-start;
+}
+
+nav ul li,
+button {
+  margin: 0 2px;
+}
+
+nav li a {
+  font-size: .755rem;
+}
+
 main {
   max-width: 100%;
   margin: 10px auto;
+}
+
+.large-img-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.medium-img-container {
+  float: none;
+  width: 40%;
+  height: 30%;
 }

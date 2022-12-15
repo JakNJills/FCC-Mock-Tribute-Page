@@ -119,7 +119,6 @@ nav li {
 
 /*Button*/
 button {
-  background-color: rgb(255, 199, 44);
   height: 100%;
   border: none;
 }
@@ -133,7 +132,7 @@ nav.nav-bar li a:visited {
   font-weight: 700;
   overflow: hidden;
   position: relative;
-  
+  background-color: rgb(255, 199, 44);
 }
 
 /*main*/
