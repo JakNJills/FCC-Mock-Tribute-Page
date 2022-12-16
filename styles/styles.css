@@ -217,6 +217,14 @@ p .article-info {
 }
 
 /*iframe style*/
-iframe {
+.video-frame {
+  width: 85%;
+  height: 560px;
+  margin: 10px auto;
+}
+
+.video-content {
   margin: 0 auto;
+  height: 100%;
+  width: 100%;
 }
