@@ -196,19 +196,19 @@ p .article-info {
 }
 
 /*medium images*/
-.medium-size-image {
-  height: 300px;
-  margin: 0 auto;
-}
-
 .float-right {
   float: right;
-  width: 50%;
+  width: 26%;
   margin: 0 0 10px 0;
 }
 
+.tall-image {
+  height: 300px;
+}
 
-.medium-caption {
+
+
+.img-caption {
   font-size: .621rem;
   font-weight: 400;
   padding: 3px;
