@@ -56,16 +56,23 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
--Built the cover page
-  -Created an <a> link and added an background image.
-  -Added a header and positioned it fixed.
-  -Added the fade in function to the header.
--Main page
-  -Built a  simple header
-  -Added a navigation bar with links to each section
-  -added buttons to nav bar
-  -Styled section headers and mini intros
-  -Get best quality images and make them responsive to resizing
+  -Built the cover page
+
+    -Created an <a> link and added an background image.
+    -Added a header and positioned it fixed.
+    -Added the fade in function to the header.
+
+  -Main page
+    -Built a  simple header
+    -Added a navigation bar with links to each section
+    -added buttons to nav bar
+    -Styled section headers and mini intros
+    -Get best quality images and make them responsive to resizing
+
+  -Created separate stylesheets
+    -Desktop
+    -Tablet
+    -Mobile
 
 ### Built with
 
@@ -80,15 +87,15 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+  ```html
+  <h1>Some HTML code I'm proud of</h1>
+  ```
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+  ```css
+  .proud-of-this-css {
+    color: papayawhip;
+  }
+  ```
 
 ```js
 const proudOfThisFunc = () => {
