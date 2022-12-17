@@ -202,6 +202,12 @@ p .article-info {
   margin: 0 0 10px 0;
 }
 
+.float-left {
+  float: left;
+  width: 42%;
+  margin: 0 0 8px 0;
+}
+
 .tall-image {
   height: 300px;
 }
@@ -212,17 +218,9 @@ p .article-info {
   padding: 3px;
   text-align: center;
   height: 4px;
+  margin: 0 0 8px 0;
 }
 
 /*iframe style*/
-.video-frame {
-  width: 85%;
-  height: 560px;
-  margin: 10px auto;
-}
 
-.video-content {
-  margin: 0 auto;
-  height: 100%;
-  width: 100%;
-}
+
