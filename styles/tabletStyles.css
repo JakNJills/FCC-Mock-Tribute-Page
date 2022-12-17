@@ -5,25 +5,29 @@
   scroll-behavior: smooth;
 }
 
-.large-Screen {
+.laptop-screen,
+.mobile-screen {
   display: none;
 }
 
-.mobile-screen {
+.tablet-screen {
   display: block;
 }
 
+header,
+nav {
+  width: 100%;
+}
+
 h1 {
-  font-size: 2rem;
+  font-size: 2.73rem;
 }
 
 .header-intro {
-  font-size: 1rem;  
+  font-size: 1.22rem;  
 }
 
-nav ul {
-  justify-content: flex-start;
-}
+
 
 nav ul li,
 button {
@@ -31,7 +35,7 @@ button {
 }
 
 nav li a {
-  font-size: .755rem;
+  font-size: .925rem;
 }
 
 main {
@@ -39,13 +43,10 @@ main {
   margin: 10px auto;
 }
 
-.large-img-container {
-  width: 80%;
-  margin: 0 auto;
+p {
+ font-size: .88rem;
 }
 
-.medium-img-container {
-  float: none;
-  width: 40%;
-  height: 30%;
+img {
+  display: none;
 }

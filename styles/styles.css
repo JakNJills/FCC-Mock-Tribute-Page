@@ -72,8 +72,9 @@ nav li,
   border: 0;
 }
 
-/*Mobile screen*/
-.mobile-screen {
+/*other screen class*/
+.mobile-screen,
+.tablet-screen {
   display: none;
 }
 
@@ -140,6 +141,10 @@ main {
   margin: 40px 60px 20px;  
 }
 
+abbr {
+  text-transform: uppercase;
+}
+
 /*Section lines*/
 .section-line {
   background-color: rgb(190, 58, 52);
@@ -196,13 +201,21 @@ p .article-info {
 }
 
 /*medium images*/
-.float-right {
-  float: right;
+.float-right,
+.float-left {
   width: 26%;
   margin: 0 0 10px 0;
 }
 
+.float-right {
+  float: right;  
+}
+
 .float-left {
+  float: left;
+}
+
+.float-left-2 {
   float: left;
   width: 46%;
   margin: 0 0 8px 0;

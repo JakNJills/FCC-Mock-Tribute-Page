@@ -5,8 +5,9 @@
   scroll-behavior: smooth;
 }
 
-.large-Screen,
-.large-Screen1 {
+.laptop-tablet-screen,
+.laptop-screen,
+.tablet-screen {
   display: none;
 }
 

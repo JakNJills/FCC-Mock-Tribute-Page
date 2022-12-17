@@ -40,7 +40,7 @@ header {
   background-color: black;
   background-blend-mode: lighten;
   border-radius: 10% 4% 10% 4%;
-  height: 40%;  
+  height: fit-content;  
 }
 
 .sr-only {
@@ -55,9 +55,8 @@ header {
 }
 
 #title {
-  margin: 50px auto 0;
+  margin: 0 auto;
   text-align: center;
-  padding-top: 10px;
   margin-bottom: 3%;
   font-size: 2.65rem;
   font-weight: 700;
