@@ -1,0 +1,20 @@
+.mobile-screen {
+  display: block;
+}
+
+.web-screen {
+  display: none;
+}
+
+header {
+  width: 60%;
+  margin: 150px 60px 0 0;
+}
+
+h1 span.mobile-screen {
+  font-size: 2rem;
+}
+
+p span.mobile-screen {
+  font-size: .966rem;
+}
