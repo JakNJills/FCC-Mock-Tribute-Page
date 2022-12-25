@@ -47,7 +47,6 @@ h1,
 .header,
 .section-line,
 nav,
-main,
 button,
 img {
   max-width: 100%;
@@ -87,10 +86,12 @@ nav li,
 h1 {
   font-size: 3rem;
   margin: 0 0 8px 0;
+  font-size: 500;
 }
 
 .header-intro {
-  font-size: 1.2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 /*Nav-bar Styles*/
@@ -102,6 +103,7 @@ nav {
   position: -webkit-sticky;
   top: 0;
   margin: 0 0 10px 0;
+  font-size: 1.6rem;
 }
 
 nav ul {
@@ -138,7 +140,8 @@ nav.nav-bar li a:visited {
 
 /*main*/
 main {
-  margin: 40px 60px 20px;  
+  margin: 40px auto 20px;
+  max-width: 96%;
 }
 
 abbr {
@@ -155,12 +158,12 @@ abbr {
 
 /*Section styles*/
 .section-header {
-  margin: 60px 0 0 0;
+  margin: 60px auto 0;
   text-align: center;
 }
 
 .section-title {
-  font-size: 2rem;
+  font-size: 2.54rem;
   margin: 10px auto 6px;
   background-color: rgb(0, 107, 182);
   border-radius: 10px;
@@ -168,7 +171,7 @@ abbr {
 }
 
 .section-intro-mini {
-  font-size: 1.3rem;
+  font-size: 1.63rem;
   margin: 0 0 8px 0;
 }
 
@@ -177,16 +180,22 @@ abbr {
 }
 
 p .article-info {
-  font-size: 1.21rem;
+  font-size: 1.31rem;
+  font-weight: 500;
 }
 
 blockquote {
-  font-size: .945rem;
+  font-size: .965rem;
   font-style: italic;
   margin: 6px auto;
   text-align: center;
   font-weight: 500;
   width: 82%;
+}
+
+blockquote.cited-quote {
+  margin: 6px 30px 6px 0;
+  width: 100%;
 }
 
 cite {
@@ -218,12 +227,14 @@ cite {
 /*medium images*/
 .float-right,
 .float-right2 {
-  float: right;  
+  float: right;
+  margin: 0 0 8px 0;
 }
 
 .float-left,
 .float-left2 {
   float: left;
+  margin: 0 0 8px 0;
 }
 
 .float-right,

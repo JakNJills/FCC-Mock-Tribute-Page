@@ -9,14 +9,22 @@
 
 
 header {
-  width: 60%;
-  margin: 150px 60px 0 0;
+  position: static;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 4px;
 }
 
-h1 span.mobile-screen {
+#title {
   font-size: 2rem;
+  width: 100%;
+  margin: 0;
+  background-color: black;
 }
 
 p span.mobile-screen {
-  font-size: .966rem;
+  font-size: 1rem;
+  width: 100%;
+  margin: 0;
 }
