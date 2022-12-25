@@ -180,6 +180,21 @@ p .article-info {
   font-size: 1.21rem;
 }
 
+blockquote {
+  font-size: .945rem;
+  font-style: italic;
+  margin: 6px auto;
+  text-align: center;
+  font-weight: 500;
+  width: 82%;
+}
+
+cite {
+  font-weight: 600;
+  display: block;
+  margin: 0;
+}
+
 /*Section Images*/
 /*Large image container and images*/
 .large-Img-container{
@@ -202,27 +217,36 @@ p .article-info {
 
 /*medium images*/
 .float-right,
-.float-left {
-  width: 26%;
-  margin: 0 0 10px 0;
-}
-
-.float-right {
+.float-right2 {
   float: right;  
 }
 
-.float-left {
+.float-left,
+.float-left2 {
   float: left;
 }
 
-.float-left-2 {
-  float: left;
+.float-right,
+.float-left {
+  width: 26%;
+  margin: 0 6px 10px ;
+}
+
+
+.float-left2,
+.float-right2 {
   width: 46%;
-  margin: 0 0 8px 0;
+  margin: 0 6px 8px 6px;
 }
 
 .tall-image {
   height: 300px;
+  width: 100%;
+}
+
+.medium-image {
+  width: 100%;
+  height: 200px;
 }
 
 .img-caption {
