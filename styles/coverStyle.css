@@ -40,7 +40,8 @@ header {
   background-color: black;
   background-blend-mode: lighten;
   border-radius: 10% 4% 10% 4%;
-  height: fit-content;  
+  height: fit-content;
+  padding: 10px;
 }
 
 .sr-only {
@@ -66,7 +67,7 @@ header {
   font-weight: 500;
   text-align: center;
   margin: 0;
-  font-size: .7745rem;
+  font-size: 1.45rem;
   padding-bottom: 2px;
 }
 
