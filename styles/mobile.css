@@ -11,7 +11,7 @@
   display: none;
 }
 
-.mobile-Screen {
+.mobile-screen {
   display: block;
 }
 
@@ -23,8 +23,12 @@ h1 {
   font-size: 1rem;  
 }
 
-nav ul {
-  justify-content: flex-start;
+nav.mobile-screen {
+  width: 100%;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  height: 7%;
 }
 
 nav ul li,

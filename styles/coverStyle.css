@@ -1,19 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,700&display=swap');
-
 html,
 body {
   height: 100%;
   margin: 0;
 }
 
-/*add a fade out to the body*/
-body {
-  font-family: 'Lora', cursive, sans-serif;
-  color: rgb(255, 199, 44);
-}
-
 #background-img {
-  background-image: url("../images/cover.jpeg");
+  background-image: url("../images/jerseyBack.webp");
   display: block;
   height: 100%;
   background-position: center;
@@ -28,69 +20,3 @@ body {
   cursor: pointer;
   position: fixed;
 }
-
-header {
-  position: fixed;
-  top: 40px;
-  right: 0;
-  z-index: 10;
-  width: 34%;
-  font-style: italic;
-  text-align: center;
-  background-color: black;
-  background-blend-mode: lighten;
-  border-radius: 10% 4% 10% 4%;
-  height: fit-content;
-  padding: 10px;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
-#title {
-  margin: 0 auto;
-  text-align: center;
-  margin-bottom: 3%;
-  font-size: 2.65rem;
-  font-weight: 700;
-}
-
-.headerIntro {
-  font-weight: 500;
-  text-align: center;
-  margin: 0;
-  font-size: 1.45rem;
-  padding-bottom: 2px;
-}
-
-#title,
-.headerIntro {
-  font-style: italic;
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-/*Animation key=frame*/
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-.mobile-screen {
-  display: none;
-}
-

@@ -1,5 +1,5 @@
 /*Imported Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Roboto:wght@300;400;500;700&display=swap');
 
 /*Html and body  styles*/
 * {
@@ -30,6 +30,7 @@ h1,
 .section-intro-mini,
 nav.nav-bar li a {
   font-family: 'Lora', sans-serif;
+  font-style: italic;
 }
 
 h1,
@@ -86,12 +87,12 @@ nav li,
 h1 {
   font-size: 3rem;
   margin: 0 0 8px 0;
-  font-size: 500;
+  font-size: 600;
 }
 
 .header-intro {
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 /*Nav-bar Styles*/
@@ -104,15 +105,16 @@ nav {
   top: 0;
   margin: 0 0 10px 0;
   font-size: 1.6rem;
+  padding: 0;
 }
 
 nav ul {
   list-style: none;
-  padding: 0 0 4px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
+  padding: 0;
 }
 
 nav li {
@@ -126,17 +128,6 @@ button {
   border: none;
 }
 
-/*Link Styles*/
-button,
-nav.nav-bar li a:link,
-nav.nav-bar li a:visited {
-  color: rgb(29, 66, 138);
-  text-decoration: none;
-  font-weight: 700;
-  overflow: hidden;
-  position: relative;
-  background-color: rgb(255, 199, 44);
-}
 
 /*main*/
 main {
@@ -144,15 +135,11 @@ main {
   max-width: 96%;
 }
 
-abbr {
-  text-transform: uppercase;
-}
-
 /*Section lines*/
 .section-line {
   background-color: rgb(190, 58, 52);
   margin-bottom: 32px;
-  padding: 0px;
+  padding: 0;
   height: 0.54vw;
 }
 
@@ -167,12 +154,14 @@ abbr {
   margin: 10px auto 6px;
   background-color: rgb(0, 107, 182);
   border-radius: 10px;
-  padding-right: 10px;  
+  padding-right: 10px;
+  font-weight: 500;
 }
 
 .section-intro-mini {
-  font-size: 1.63rem;
+  font-size: 1.33rem;
   margin: 0 0 8px 0;
+  font-weight: 400;
 }
 
 .section-clear {
@@ -185,11 +174,11 @@ p .article-info {
 }
 
 blockquote {
-  font-size: .965rem;
+  font-size: .895rem;
   font-style: italic;
-  margin: 6px auto;
+  margin: 10px auto;
   text-align: center;
-  font-weight: 500;
+  font-weight: 300;
   width: 82%;
 }
 
